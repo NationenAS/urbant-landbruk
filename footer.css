@@ -1,0 +1,165 @@
+footer {
+    background-color: #333;    
+    padding-top: 15px;
+}
+
+
+
+footer  .footer_logotype {
+    margin: auto;
+    
+    display: block;
+    max-width: 100%;
+    padding: 20px 0px;
+}
+
+.footer_inside {
+    width: 960px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.footer hr {
+    border-top: 1px solid #515151; 
+    width: 100%; 
+    margin-bottom: 0;
+}
+
+footer  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #666
+}
+
+.footer_inside a:hover {
+    border-bottom: 1px solid #bcd046
+}
+
+.contact-links {
+    text-align: center;
+    display: none;
+    margin: auto;
+}
+
+.varsom {
+    color: white;
+    display: none;
+}
+
+.contact-links-group .col-4 {
+    padding: 10px;
+}
+
+.facebook:hover {
+    color: #276ac6;
+    border-color: #276ac6;
+    text-decoration: none;
+}
+
+.twitter:hover {
+    color: #27cfde;
+    border-color: #27cfde;
+    text-decoration: none;
+}
+
+.tips:hover {
+    color: #c5c297;
+    border-color: #c5c297;
+    text-decoration: none;
+
+}
+
+.instagram:hover {
+    color: #c5c297;
+    border-color: #c5c297;
+    text-decoration: none;
+}
+
+.telefon:hover {
+    color: #bcd046;
+    border-color: #bcd046;
+    text-decoration: none;
+}
+.nationen:hover{
+    color: #bcd046;
+    border-color: #bcd046;
+    text-decoration: none;
+}
+
+.varsom a:hover{
+    text-decoration: none;
+    border-color: #bcd046;
+    color: #bcd046;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+
+    .contact-links{
+        display: block;
+    }
+
+    .contact-links-group {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 10px;       
+    }
+    .contact-links-group a {
+        margin-bottom: 50px;
+    }
+
+    .footer_logotype {
+        margin-bottom: 10px;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+    }    
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+    } 
+
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        margin: auto;
+    } 
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact-links {
+        display: block;
+    }
+
+    .varsom {
+        display: block;
+        text-align: center;
+        padding: 25px;
+        margin: auto;
+    } 
+
+}
