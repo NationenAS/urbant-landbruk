@@ -1,0 +1,1274 @@
+<style>
+
+
+.byline {
+
+font-size: 16px;
+text-align: center;
+}
+
+.byline i {
+letter-spacing: 1px;
+}
+
+.bylineimg img {
+position: relative;
+top: 0;
+left: 0;
+}
+
+.byline-wrapper hr {
+width: 330px;
+}
+
+.byline-wrapper {
+margin-bottom: 50px;
+margin-top: 75px;
+}
+
+.bylineimg img {
+display: block;
+position: relative;
+margin: auto;
+height: 60px;
+margin-top: 50px;
+
+}
+
+
+
+.box {
+box-sizing: border-box;
+}
+
+.cont-box {
+box-sizing: content-box;
+}
+
+
+.right {
+float: right;
+}
+
+.left {
+float: left;
+}
+
+
+.fact {
+background-color: #336600;
+color: white;
+font-size: 1rem;
+padding-bottom: 15px;
+padding-top: 15px;
+margin-bottom: 0px;
+flex: 1;
+}
+
+.fact p {
+color: white;
+}
+
+.fact-wrapper {
+display: flex;
+}
+
+
+
+.fact li {
+margin-bottom: 30px;
+}
+
+h6 {
+font-size: 20px;
+}
+
+q:before {
+content: '«';
+}
+
+q:after {
+content: '»';
+}
+
+q {
+color: #336600;
+}
+
+
+video {
+width: 100%;
+margin: auto;
+display: block;
+}
+
+
+
+.background-center {
+background-attachment: scroll;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+overflow-x: hidden;
+}
+
+.portraitimg img {
+
+display: block;
+max-width: 100%;
+max-height: 100%;
+
+margin: auto;
+margin-right: 0;
+
+}
+
+
+
+/* spesific backgrounds */
+
+/* DET SOM SKAL SKJULES på små */
+
+
+
+.display-large {
+display: none;
+}
+
+#topimg {
+height: 100vh;
+background: #a7cece;
+background-image: url('https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1845.jpg');
+background-attachment: local;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+background-position: center;
+overflow-x: hidden;
+}
+
+p {
+font-size: 18px;
+text-align: left;
+margin: 15px 25px;
+color: #515150;
+}
+
+
+
+.sitat {
+
+line-height: 200%;
+}
+
+.sitat p {
+font-size: 20px;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+
+.sitat i {
+display: block;
+font-size: 16px;
+font-weight: lighter;
+width: 80%;
+text-align: center;
+margin: auto;
+}
+
+
+
+h1 {
+color: #515151;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family: adelle_sansregular, sans-serif;
+font-size: 30px;
+}
+
+h4 {
+text-align: left;
+margin: auto;
+margin-left: 25px;
+margin-top: 50px;
+width: 80%;
+}
+
+p {
+font-size: 18px;
+text-align: left;
+margin: 15px 25px;
+color: #515150;
+}
+
+ul {
+padding-top: 15px;
+}
+
+hr {
+width: 85%;
+}
+
+.text div {
+margin-bottom: 50px;
+}
+
+.ingress h3 {
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+color: #515150;
+}
+
+
+
+
+#header {
+padding: 0;
+}
+
+.bildetekst {
+margin-left: 25px;
+width: 90%;
+display: block;
+}
+
+/********** generelle klasser ***************/
+
+.padding {
+height: 5px;
+margin-bottom: 50px;
+}
+
+.padding-top {
+padding-top: 50px;
+}
+
+
+
+/********** Full bredde bilder ***********/
+
+.full-width-image {
+width: 100vw;
+position: relative;
+left: 50%;
+margin-left: -50vw;
+
+box-sizing: border-box;
+
+}
+
+.full-width-image img {
+width: 100%;
+margin: auto;
+display: block;
+}
+
+.minw500 {
+min-width: 500px;
+}
+
+.minw600 {
+min-width: 600px;
+}
+
+.minw700 {
+min-width: 700px;
+}
+
+#img4 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad1.jpg);
+height: 120vh;
+}
+
+#img5 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad10.jpg);
+height: 125vh;
+
+}
+
+
+/******** SMALL SCREEN *******/
+@media screen and (min-width: 576px) and (max-width:767px) {
+h1 {
+font-size: 40px;
+}
+
+h4 {
+margin-left: 25px;
+}
+
+hr {
+width: 85%;
+}
+
+.ingress h3 {
+font-size: 25px;
+}
+
+.text p {
+line-height: 40px;
+}
+
+.sitat i {
+font-size: 16px;
+text-align: center;
+width: 80%;
+}
+
+.display-large {
+display: none;
+}
+
+.bylineimg img {
+display: block;
+position: relative;
+
+height: 60px;
+}
+
+}
+
+
+/******** Medium SCREEN *******/
+@media screen and (min-width: 768px) and (max-width:991px) {
+h1 {
+font-size: 45px;
+}
+
+h4 {
+margin-left: 25px;
+}
+
+hr {
+width: 85%;
+}
+
+.ingress h3 {
+font-size: 25px;
+}
+
+.text p {
+line-height: 40px;
+}
+
+.sitat p {
+font-size: 25px;
+text-align: center;
+}
+
+.sitat i {
+font-size: 16px;
+text-align: center;
+}
+
+.display-large {
+display: none;
+}
+
+.bylineimg img {
+display: block;
+position: relative;
+
+height: 60px;
+}
+
+.fact {
+background-color: #336600;
+color: white;
+font-size: 1rem;
+padding-bottom: 15px;
+padding-top: 15px;
+margin-bottom: 0px;
+flex: 1;
+}
+
+.fact h4 {
+margin-top: 25px;
+}
+
+.fact-wrapper {
+display: flex;
+}
+
+.padding-null-left-md {
+padding-left: 0;
+}
+
+.padding-null-right-md {
+padding-right: 0;
+}
+
+}
+
+/******** Large SCREEN *******/
+
+@media screen and (min-width: 992px) {
+h1 {
+font-size: 50px;
+margin-top: 50px;
+margin-bottom: 80vh;
+}
+
+h4 {
+margin: auto;
+}
+
+.byline-wrapper hr {
+width: 230px;
+}
+
+.background-center {
+background-attachment: fixed;
+}
+
+
+#topimg {
+background-attachment: fixed;
+height: calc(200vh + 600px);
+}
+
+
+
+#img2 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1803.jpg);
+height: calc(400vh + 800px);
+}
+
+#img3 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1899.jpg);
+height: 120vh;
+}
+
+#img4 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad1.jpg);
+height: 120vh;
+}
+
+.facts-item p::before {
+/* add the new bullet point */
+display: inline-block;
+position: absolute;
+transform: translateX(-20px) translateY(7px);
+
+
+content: '';
+-webkit-border-radius: 0.375rem;
+border-radius: 0.375rem;
+height: 0.75rem;
+width: 0.75rem;
+margin-right: 0.5rem;
+background-color: #515151;
+}
+
+.facts-large {
+
+margin: 0;
+margin-top: 125vh;
+
+color: #515150;
+}
+
+
+
+.facts-large .facts-item {
+
+background-color: white;
+box-shadow: 0px 0px 1px #ccc;
+text-align: center;
+padding: 0 10px;
+margin: 0 10%;
+
+}
+
+
+
+#facts-last {
+padding-bottom: 10px;
+text-align: left;
+}
+
+.facts-large .facts-item h4 {
+padding: 25px 15px;
+text-align: center;
+
+}
+
+.facts-large .facts-item p {
+margin-top: 50vh;
+padding: 15px 0;
+}
+
+/*  FAKTA I GRØNN BOKS (selv om stor skjerm)   */
+.fact {
+background-color: #336600;
+color: white;
+font-size: 1rem;
+padding-bottom: 15px;
+padding-top: 15px;
+margin-bottom: 0px;
+flex: 1;
+}
+
+.fact p {
+color: white;
+}
+
+.fact h4 {
+margin-top: 25px;
+}
+
+.sidebyside {
+padding: 70px 50px;
+}
+
+.fact-wrapper {
+display: flex;
+}
+
+.padding-null-left-md {
+padding-left: 0;
+}
+
+.padding-null-right-md {
+padding-right: 0;
+}
+
+
+.display-small {
+display: none;
+}
+
+.display-large {
+display: block;
+}
+
+/*
+*** SKAL LEGGES ETTER BASIC ER FIKSET ***
+*/
+
+#topimg .container-fluid .row .ingress-med {
+font-size: 1.5rem;
+margin: auto;
+position: relative;
+background: white;
+padding: 25px;
+box-shadow: 0px 0px 1px #ccc;
+}
+
+#img2 {
+height: calc(400vh + 800px);
+}
+
+#img3 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1899.jpg);
+height: 120vh;
+}
+
+#img4 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad1.jpg);
+height: 120vh;
+}
+
+
+
+.ingress h3 {
+font-size: 35px;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+
+.text p {
+font-size: 20px;
+line-height: 35px;
+max-width: 80%;
+margin: 25px auto;
+}
+
+.sitat p {
+font-size: 30px;
+text-align: center;
+}
+
+.sitat i {
+font-size: 16px;
+text-align: center;
+width: 80%;
+}
+
+ul {
+
+font-size: 20px;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+h1 {
+font-size: 50px;
+margin-top: 50px;
+margin-bottom: 90vh;
+}
+
+.byline-wrapper hr {
+width: 330px;
+}
+
+/*  Høyde kalkulert 50vh mellom hvert element + px høyden totalt for elementene  */
+
+#img2 {
+background-image: url(https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1803.jpg);
+height: calc(400vh + 600px);
+
+}
+
+.sitat p {
+font-size: 30px;
+text-align: center;
+}
+
+/*  FAKTA I GRØNN BOKS (selv om stor skjerm)   */
+.fact {
+background-color: #336600;
+color: white;
+font-size: 1rem;
+padding-bottom: 15px;
+padding-top: 15px;
+margin-bottom: 0px;
+flex: 1;
+}
+
+.portraitimg img {
+max-height: 100vh;
+min-height: 700px;
+}
+
+.sidebyside {
+padding-top: 10vh;
+
+
+}
+
+.fact-wrapper {
+display: flex;
+}
+
+}
+
+
+/* MAKE STUFF FADE INN */
+.hidden {
+display: none;
+}
+
+
+
+/******* Nationen footer*****/
+
+/* EGEN FIL */
+</style>
+
+<div class="natlab">
+<div id="topimg" class="background-center hidden">
+
+    <div class="container-fluid display-large">
+
+        <div class="row">
+            <div class="col-12" id="wide-header">
+                <h1>Vil løfte <span style="color: #336600; font-weight: bold;">bylandbruket</span> til nye høyder
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid display-large">
+        <div class="row ">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 ingress-med">
+
+                <h3>Landbruksminister Olaug Bollestad (Krf) ønsker seg flere bønder i byen.</h3>
+
+                <div class="byline-wrapper">
+
+                    <div class="col-12 bylineimg">
+                        <img src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/liten-logo-grønn.png" alt="" srcset="">
+
+                    </div>
+
+                    <div class="col-12">
+                        <hr>
+                        <p class="byline"><strong>JOURNALIST:</strong> &nbsp; <i> Tone C. S. Thorgrimsen</i>
+                            <br>
+
+                            <strong>UTVIKLER:</strong>&nbsp; <i> Bendik M. Jørgensen</i> <br>
+                            <strong>FOTOGRAF:</strong> &nbsp; <i> Siri J. Rasmussen </i> <br>
+                            Publisert: 26.11.2019 </p>
+                        <hr>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-7"></div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid display-small">
+
+    <div class="row">
+        <div id="header" class="col-12">
+            <h1>Vil løfte <span style="color: #336600; font-weight: bold;">bylandbruket</span> til nye høyder</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 ingress">
+
+            <h3>Landbruksminister Olaug Bollestad (Krf) ønsker seg flere bønder i byen.
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="container display-small">
+    <div class="byline-wrapper">
+
+        <div class="col-12 bylineimg">
+            <img src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/liten-logo-grønn.png" alt="" srcset="">
+
+        </div>
+
+        <div class="col-12">
+            <hr> <br>
+            <p class="byline"><strong>JOURNALIST:</strong> &nbsp; <i> Tone C. S. Thorgrimsen</i> <br>
+
+                <strong>UTVIKLER:</strong>&nbsp; <i> Bendik M. Jørgensen</i> <br>
+                <strong>FOTOGRAF:</strong> &nbsp; <i> Siri J. Rasmussen </i> <br>
+                Publisert: 26.11.2019 </p> <br>
+            <hr>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row text">
+            <div class="col-12 padding display-large"></div>
+            <div class="col-12">
+
+                <p>Fra svimlende 14.-etasjers høyde, rett over Oslo S, trekker Olaug Bollestad (KrF) gulrøtter opp
+                    av
+                    jorda. Regnet plasker ned, men gliset trekker munnvikene godt opp.</p>
+
+                <p>Landbruksministeren er på befaring på Nordens største takhage, åkeren til storhotellet Clarion
+                    The
+                    Hub. På 200 kvadratmeter dyrker bybonde Andreas Capjon grønnsaker til restauranten en etasje
+                    ned.
+                </p>
+
+                <p>10.000 «grøntenheter» i året, høyt over hovedstadens trafikk-knutepunkt nummer én. Du skal lete
+                    lenge
+                    etter mer urbant landbruk i Norge.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container display-small">
+        <div class="row text">
+            <div class="col-1"></div>
+            <div class="col-10 fact box">
+
+                <h4>Hva er urbant landbruk?</h4>
+                <ul>
+                    <li>Urbant landbruk betegner en rekke ulike aktiviteter knyttet til dyrking og husdyrhold i by
+                        og bynære strøk.</li>
+
+                    <li>Det kan være alt fra tradisjonelt landbruk og hagebruk, takfarmer og birøkt til
+                        parsellhager, felleshager og pallekarmer på balkonger.</li>
+
+                    <li>Dagens byer kjennetegnes ved at mat og varer transporteres inn, og avfall transporteres ut.
+                        Det urbane landbruket kan skape bærekraftige kretsløp basert på lokalt ressursgrunnlag.</li>
+
+                    <li>I november starter regjeringen med å utarbeide en strategi for urbant landbruk i Norge.</li>
+                   
+                </ul>
+                <i>Kilde: Landbruksdepartementet </i>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div class="full-width-image display-small">
+        <img class="right minw500" src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/DSC_1803.jpg" alt="" srcset="">
+        <i class="bildetekst">Bybonde Andreas Capjon</i>
+    </div>
+
+    <div id="img2" class="display-large background-center">
+        <div class="container">
+            <div class="col-6 facts-large">
+                <div class="facts-item">
+                    <h4>Hva er urbant landbruk?</h4>
+                </div>
+                <div class="facts-item">
+                    <p>Urbant landbruk betegner en rekke ulike aktiviteter knyttet til dyrking og husdyrhold i by og
+                        bynære strøk.</p>
+                </div>
+                <div class="facts-item">
+                    <p>Det kan være alt fra tradisjonelt landbruk og hagebruk, takfarmer og birøkt til parsellhager,
+                        felleshager og pallekarmer på balkonger.</p>
+                </div>
+                <div class="facts-item">
+                    <p>Dagens byer kjennetegnes ved at mat og varer transporteres inn, og avfall transporteres ut.
+                        Det urbane landbruket kan skape bærekraftige kretsløp basert på lokalt ressursgrunnlag.</p>
+                </div>             
+
+                <div id="facts-last" class="facts-item">
+                    <p>I november starter regjeringen med å utarbeide en strategi for urbant landbruk i Norge.</p>
+                    <i>Kilde: Landbruksdepartementet </i>
+                </div>
+                
+            </div>
+            <div class="col-6"></div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text">
+            <div class="col-12 padding"></div>
+            <div class="col-12">
+                <h4>Det gror i Oslogryta</h4>
+                <p>Urbant landbruk er ikke nevnt med ett ord i Bollestads forslag til statsbudsjett for neste år.
+                    Men
+                    hun har det på radaren.</p>
+                <p>Regjeringen har nemlig bestemt at de vil ha mer bydyrking, og de skal jobbe fram en strategi for
+                    å få
+                    det til. Bollestad starter arbeidet med en mini-innspillsrunde i to av hovedstadens grønne
+                    oaser,
+                    før departementet 18. november avholdt en egen konferanse for å finne ut hva som skal til for at
+                    mer
+                    bylandbruk kan blomstre opp, og hvilke frukter de kan forvente å høste av det.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row text">
+            <div class="col-md-1"></div>
+            <div class="col-12 col-md-10 sitat">
+                <p><q>Mange tenker på urbant landbruk som en slags privat hobbygreie, men det er mye mer.</q> <br>
+                <hr> <i> Ellen Marie Forsberg, seniorrådgiver hos Fylkesmannen i Oslo og Viken</i></p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row text">
+
+            <div class="col-12">
+                <p>At innspillene hentes fra hovedstaden, handler ikke bare om nærhet til Landbruksdepartementet,
+                    eller
+                    at det er Norges største by.</p>
+                <p>– Oslo kommune satser stort nå. Mange tenker på urbant landbruk som en slags privat hobbygreie,
+                    men
+                    det er mye mer, sier Ellen Marie Forsberg, seniorrådgiver hos Fylkesmannen i Oslo og Viken.</p>
+                <p>Hun har vært fødselshjelper til mange av bydyrke-prosjektene som er i gang.</p>
+                <p>– Vi har jobbet mye med urbant landbruk i flere år, mest i kulissene. Det startet som et
+                    omdømmeprosjekt for landbruket. Vi støttet skolehageprosjekter, Gartneriet på Bygdøy, Bybonden …
+                    Og
+                    vi har utarbeidet en rapport, hvor vi blant annet utfordret kommunen – en utfordring de har
+                    tatt,
+                    sier Forsberg. </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text">
+            <div class="col-1"></div>
+            <div class="col-10 fact box">
+                <h4>Oslo og urbant landbruk</h4>
+                <p>«Dyrking i byen bidrar til flere grønne møteplasser som gjør Oslo triveligere for både mennesker
+                    og dyr. Det øker forståelsen for hvor maten kommer fra, og er bra for både folkehelse og
+                    integrering. Byrådet vil ta vare på byens kolonihager, parsellhager og skolehager, omgjøre grå
+                    arealer til grønne byrom for urban dyrking, og styrke satsingen på urbant landbruk.»</p>
+
+                </ul>
+                <i>Kilde: Plattform for byrådssamarbeid mellom Arbeiderpartiet, Miljøpartiet de Grønneog
+                    Sosialistisk
+                    Venstreparti i Oslo2019-2023</i>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+  
+    <div class="background-center" id="img3"></div>
+
+    <div class="container">
+        <div class="row padding"></div>
+        <div class="row text">
+            <div class="col-12">
+                <h4>Ureist, god business</h4>
+                <p>På hotellet i Oslo sentrum er de ikke i tvil om at takhagen er en god idé. Og god business. </p>
+
+                <p>– For oss, som reiselivsbedrift og hotell, er det viktigste å ta vare på våre gjester og skape
+                    opplevelser for dem. Vi har et bedre produkt når vi dyrker egen mat på taket i samarbeid med
+                    Bybonden, sier hotelldirektør André Schreiner.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text">
+            <div class="col-md-1"></div>
+            <div class="col-12 col-md-10 sitat">
+
+                <p><q>At det skal være vanskelig å få til et gjerde rundt takhagen, for eksempel, det hadde vi ikke
+                        regnet med</q><br>
+                    <hr><i> André Schreiner, hotelldirektør </i></p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text">
+            <div class="col-12">
+                <p>Selv om takåkeren er stor i utstrekning, stikker ikke jorda særlig dypt. Bare 20 centimeter
+                    dekker
+                    det hele.</p>
+
+                <p>– Det viser at det går an å dyrke mye mat på et relativt tynt jordlag, sier bybonde Capjon.</p>
+
+                <p>Han bruker to dager i uken på takhagen. </p>
+
+                <p>– Det er ikke vanskelig for flere å sette i gang med takdyrking. Litt jord og frø koster ikke så
+                    mye.
+                    Det det kreves mest av er arbeidstimer, sier Capjon.</p>
+
+                <p>Hotelldirektør Schreiner mener det er positivt at politikerne vil lage en strategi for at flere
+                    skal
+                    gjøre som dem. </p>
+
+                <p>– Vi deler gjerne erfaringene våre. En utfordring vi møtte på politisk, som overrasket oss, var
+                    høydebegrensningene. At det skal være vanskelig å få til et gjerde rundt takhagen, for eksempel,
+                    det
+                    hadde vi ikke regnet med. Vi fikk nei, på grunn av politisk bestemte høydereguleringer. De samme
+                    som
+                    setter en stopper for at vi kan ha drivhus på taket, som vi egentlig ønsket oss, sier Schreiner.
+                </p>
+
+                <p>Han er ikke den eneste som drømmer om et lite veksthus midt i byen.</p>
+
+                <p>– Jeg sa, da jeg ble landbruksminister, at vi burde ha et drivhus på terrassen i departementet.
+                    Det
+                    skal jeg jammen sørge for nå, sier ministeren. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-image">
+        <img class="" src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad4.jpg" alt="" srcset="">
+        <i class="bildetekst">Restaurant Norda er selvforsynt med microgreens fra kjelleren hele året. Blant annet
+            er de ingrediensene i en egen salat som alltid er på menyen.</i>
+    </div>
+
+    <div class="container">
+        <div class="row text">
+            <div class="col-12 padding"></div>
+            <div class="col-12">
+
+                <p>Hun er opptatt av å fylle strategien med konkrete, matnyttige tiltak.</p>
+
+                <p>– Det grønne skiftet handler om å utnytte ressursene, bruke mulighetene i den sirkulære
+                    økonomien. En
+                    del av det, er å øke matproduksjonen på en bærekraftig måte. Skal vi få til bærekraft, må vi
+                    bruke
+                    ressursene som ikke direkte er i landbruket. Vi må i mindre grad frakte mat inn til byen og
+                    søppel
+                    ut. Ofte er avfallet ressurser det går an å bruke på nye måter, som når hotellet bruker regnvann
+                    til
+                    å vanne takåkeren, og bruker matrestene i restauranten til å lage kompost som gjødsler jorda,
+                    sier
+                    Bollestad. </p>
+
+                <p>Hun sier hun er ute etter en strategi som er mulig å gjennomføre, og som kan fornye seg og leve
+                    videre i takt med utviklingen.</p>
+
+                <p>– Skal vi få til det, må vi ha jordnære folk som deg, Andreas, som kan vise på en enkel måte
+                    hvorfor
+                    det er lurt å dyrke mat på tak. Og så trenger vi dristige folk i næringslivet, som tør å satse
+                    på
+                    det.</p>
+
+
+            </div>
+        </div>
+        <div class="row padding"></div>
+
+    </div>
+
+    <div class="background-center" id="img4"></div>
+    <div>
+        <i class="bildetekst">Fra venstre: Espen Andreas Hasle (KrF), fylkesleder i Oslo,
+            Olaug Bollestad (Krf), landbruksminister, Nina Glomsrud Saxrud, Landbruksdirektør i Fylkesmannen i Oslo
+            og Viken og Andreas Capjon, bybonde i Oslo
+        </i>
+    </div>
+
+    <div class="container">
+        <div class="row padding"></div>
+        <div class="row text">
+            <div class="col-12">
+                <h4>Gull i grønne erter</h4>
+                <p>I tillegg til takhagen dyrker Capjon såkalt mikrogrønt i kjelleren, som erteskudd og
+                    reddikblader. 50
+                    kasser tar hver uke heisen opp til restaurantkjøkkenet, nok til å forsyne det med alle de
+                    knasende
+                    grøntspirene som trengs året rundt.</p>
+
+                <p>Også Bollestad må jobbe for maten. Hun blir satt til å så et brett erteskudd.</p>
+
+                <p>– Om 11 dager går de i salaten, Olaug! Erter er karse 2.0. Det er dette barnehagene bør plante.
+                    De
+                    smaker
+                    mer barnevennlig, sier Capjon.</p>
+
+                <p>– Kjempegodt! Og så enkelt. Tenk om vi kunne få alle barnehager til å gjøre dette, det er jo en
+                    kjempeidé, sier Bollestad. </p>
+            </div>
+        </div>
+    </div>   
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 portraitimg padding-null-right-md">
+                <img src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/20191015_115405.jpg" alt="" srcset="">
+            </div>
+            <div class="col-12 col-md-6 fact-wrapper padding-null-left-md">
+                <div class="fact sidebyside">
+                    <h4>Slik dyrker du ertespirer</h4>
+                    <ul>
+                        <li>Kjøp/finn fram grønne, tørre erter.</li>
+                        <li>Legg dem i vann i 12 timer.</li>
+                        <li>Så dem oppi en kasse med litt jord (strø dem oppå jorda), og sett litt press på dem, for
+                            eksempel en annen kasse oppå.</li>
+                        <li>La dem stå under press, og mørkt, i fire dager.</li>
+                        <li>Ta dem fram, og la dem stå i lys og luft en uke til.</li>
+                        <li>Vips – ferdig salatmat. </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row padding"></div>
+        <div class="row text">
+            <div class="col-12 ">
+                <h4>La de små barna komme til hagen</h4>
+                <p>Neste stopp på ministerens miniturné er det nyrestaurerte Gartneriet på Bygdø Kongsgård. Det ble
+                    gjenåpnet som et urbant landbrukssenter i mai, etter et par tiår med «tornerosesøvn».</p>
+                <p>Her finnes blant annet frukthager, veksthus, grønnsakhage, kafédrift og honningproduksjon. Hagen
+                    og
+                    veksthus driftes av en gruppe på 25 personer som er på arbeidstrening i regi av Unikum, en
+                    arbeidsmarkedsbedrift eid av Kirkens Bymisjon og Oslo kommune.</p>
+                <p>– Dette er ingen «liksomjobb», det er ekte, praktisk arbeid med naturen og matproduksjon, som gir
+                    reell forståelse og nytte, sier Camilla Storm, gartner og opplæringsansvarlig i Unikum.</p>
+                <p>Hun har selv vært med på å bygge opp hagen.</p>
+                <p>I tillegg til Unikum har gartneriet i 25 år samarbeidet med universitetet på Ås, NMBU, om et kurs
+                    i
+                    økologiske skolehager og bærekraftig læring.</p>
+                <p>– Skolehagene er en ypperlig arena for både sanselig og praktisk erfaring, særlig med tanke på at
+                    «alle» ønsker at skolen skal bli mer praktisk og tverrfaglig, sier Storm. </p>
+                <p>Sju Oslo-skoler deltar på skolehagekurs på gartneriet for øyeblikket.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width-image">
+        <img class="" src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad 8.jpg" alt="" srcset="">
+        <i class="bildetekst">Landbruksministeren i samtale med en av dem som har fått jobb i Gartneriet.</i>
+
+    </div>
+    <div class="container">
+        <div class="row text">
+            <div class="col-12 padding"></div>
+            <div class="col-12 ">
+                <p>Og det er her, i skolehagene, frøet til regjeringens ønske om et mer bærekraftig, grønt
+                    bydyrkevennlig samfunn må plantes, mener både Camilla Storm og Agnes Lyche Melvær,
+                    skolehageansvarlig ved Museene i Akershus.</p>
+                <p>Sistnevnte er tidligere prosjektleder for skolehagene i Lørenskog kommune, hvor politikerne har
+                    bestemt at alle barnehager og skoler skal ha en skolehage innenfor gangavstand. </p>
+                <p>– Det er mange skoler som satser på skolehage. De må bli sett. Barn og unge er nøkkelen til det
+                    nye
+                    bærekraftssamfunnet. De kan ikke bare bli digitale, de må ut og kjenne på naturen også. Et
+                    utdanningsløp som retter seg mer mot de grønne næringene blir viktig, sier Storm og Lyche
+                    Melvær.
+                </p>
+                <p>For urbant landbruk handler ikke egentlig så mye om landbruk.</p>
+                <p>Det handler om alt som får næring når du stikker fingeren i jorda og sår en favn erter:
+                    Livsmestring,
+                    samhold, inkludering, folkehelse, sanselig og praktisk kunnskap. En ny nærhet til naturen og de
+                    livgivende krefter.</p>
+                <p>– I Danmark har de bærekraftsprosjektet «Have til Mave». Hvis vi løfter skolehagene og kunnskapen
+                    inn
+                    i læreplanene, kan det være vår nøkkel til et bærekraftig samfunn. Vi må gjenskape forholdet
+                    mellom
+                    barn og natur. Det er vi dessverre i ferd med å miste, sier Lyche Melvær.</p>
+            </div>
+        </div>
+    </div>
+    <div id="img5" class="background-center"></div>
+
+    <div class="container">
+        <div class="row text">
+            <div class="col-12 padding"></div>
+            <div class="col-12 ">
+                <h4>Sterke inntrykk</h4>
+                <p>– Chili! Du kødder nå?</p>
+                <p>Ministeren ser mistroisk på Espen Andreas Hasle, ivrig bydyrkeforkjemper og fylkesleder i Oslo
+                    KrF,
+                    og den utstrakte hånden som holder en liten, hjemmedyrket «kongechili» inne i Gartneriet.</p>
+
+                <p>Men hun tar imot.</p>
+                <p>– Den var jo ikke så sterk … </p>
+                <p>– Du må prøve frøa, sier Hasle.</p>
+                <p>– Jeg er jo ikke så dum, da, svarer Bollestad. </p>
+                <p>… men det er hun. </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row text">
+            <div class="col-12">
+                <p>Et halvt minutt senere:</p>
+                <p>– … steder som dette som skaper lyst og engasjement, og forståelse for matproduksjon – du vet,
+                    avstanden til mat har blitt større i vår tid, på noen generasjoner har vi nordmenn … mistet den
+                    direkte kontakten med hvordan … eh … maten vår lages … eh … jeg tror jeg må be om litt vann …
+                </p>
+                <p>Bollestads evne til å snakke på innpust og utpust settes midlertidig ut av drift. </p>
+                <p>Et vannglass kommer.</p>
+                <p>Bollestad tar en slurk, smiler skjelmsk, og kaster resten av glassets innhold i retning Hasle.
+                </p>
+                <p>– Tenk å gi meg dette …! Også midt under intervjuet!</p>
+                <p>Men Hasle unnslipper.</p>
+            </div>
+        </div>
+        <div class="row padding"></div>
+    </div>
+
+    <div class="full-width-image">
+        <img class="right minw600" src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad11.jpg" alt="" srcset="">
+    </div>
+
+    <div></div>
+
+    <div class="container" style="clear:both;">
+        <div class="row padding"></div>
+        <div class="row text">
+            <div class="col-12" style="clear:both;">
+
+                <p>Vannet treffer i stedet midt i fleisen på gartneriets driftsansvarlig, Marianne Leisner.</p>
+                <p>Som tar det hele med stor latter. </p>
+                <p>– Det viktigste for oss, med å få ministeren hit, er at hun ser oss. Hun er en herlig person, og
+                    tydeligvis oppdatert, hun vet hva vi driver med. Det betyr mye for oss som står i det hver dag,
+                    sier
+                    hun. </p>
+                <p>Leisners innspill til Bollestad er krystallklart:</p>
+                <p>– Vi ønsker oss at arbeidet vårt blir sett og anerkjent fra sentralt hold. Vi tror på skolehager,
+                    at
+                    de blir sett fra øverste hold gir energi og vi håper det også kan komme ressurser til en
+                    stilling,
+                    for eksempel hos fylkesmannen, som kan koordinere alle skolehagene. Det mangler i dag, sier hun.
+                </p>
+
+            </div>
+        </div>
+        <div class="row padding"></div>
+    </div>
+
+    <div class="full-width-image">
+        <img class="" src="https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/media/Bollestad17.jpg" alt="" srcset="">
+        <i class="bildetekst">Marianne Leisner mener skolehagene bør få større oppmerksomhet.</i>
+    </div>
+
+    <div class="container">
+        <div class="row padding"></div>
+        <div class="row text">
+            <div class="col-12">
+                <h4>Ingen løfter</h4>
+                <p>– Å ta inn ideelle organisasjoner og skape bærekraft, slik de gjør på Gartneriet, det er jo
+                    fantastisk, sier Bollestad.</p>
+                <p>Landbruksministeren har lyttet til innspillene, men er ordknapp når det gjelder hvilke tiltak hun
+                    vil
+                    løfte fram i strategiarbeidet.</p>
+                <p>– I tillegg til at det har en egenverdi å vite hvor maten kommer fra, hvordan den blir til,
+                    handler
+                    urbant landbruk om å tenke mer helhetlig når politikere i byer og tettsteder planlegger
+                    sentrumsområdene. Det handler om hvordan vi bruker de grønne lungene og hvordan vi skaper
+                    inkluderende møteplasser. Men hva vi konkret vil prioritere, er det altfor tidlig å si noe om,
+                    sier
+                    Bollestad.</p>
+            </div>
+        </div>       
+    </div>
+
+</div>
+
+<script>
+    function loadScript(url) {
+        return new Promise(function (resolve, reject) {
+            let script = document.createElement('script');
+            script.src = url;
+            script.async = false;
+            script.onload = function () {
+                resolve(url);
+            };
+            script.onerror = function () {
+                reject(url);
+            };
+            document.body.appendChild(script);
+        });
+    }
+
+    let scripts = [
+        'https://code.jquery.com/jquery-3.2.1.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js',
+        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+        'https://nationenmedia.s3.eu-north-1.amazonaws.com/arkiv/urbant-landbruk/script.js'
+    ];
+
+    // save all Promises as array
+    let promises = [];
+    scripts.forEach(function (url) {
+        promises.push(loadScript(url));
+    });
+
+    Promise.all(promises)
+        .then(function () {
+            console.log('all scripts loaded');
+        }).catch(function (script) {
+            console.log(script + ' failed to load');
+        });
+</script>
